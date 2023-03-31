@@ -1,0 +1,298 @@
+.about_us{
+    padding: 120px 0 70px;
+}
+
+.about_us::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    opacity: .8;
+    transform: scaleX(-1);
+}
+
+.contact_bg_img{
+    background-image: url('https://www.calibreply.com/img/banner2.aec219b9.jpg');
+}
+.about_us section{
+    position: relative;
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.outer_box{
+    position: relative;
+    z-index: 9;
+    box-shadow: 0 0 80px rgb(0 0 0 / 50%);
+}
+
+.text_column{
+    position: relative;
+}
+
+.inner_column{
+    
+    position: relative;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff92;
+
+}
+
+.message{
+    position: relative;
+    font-size: 30px;
+    line-height: 1.4em;
+    color: #353535;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.message strong{
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.text{
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #353535;
+    margin: 0;
+
+}
+.info_block{
+    position: relative;
+}
+
+.inner_box{
+    height: 150px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.info_block ul li{
+    position: relative;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #353535;
+    font-weight: 400;
+}
+
+.info_block ul li strong{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info_block ul li a{
+    color: #353535;
+    transition: all .3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.info_block ul li a:hover{
+    color:#ab7442;
+}
+
+.inner_box{
+    height: 200px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.info_block ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.info_block ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info_block ul li{
+    position: relative;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #353535;
+    font-weight: 400;
+}
+
+.form_column{
+    position: relative;
+}
+
+.inner_column{
+    position: relative;
+}
+
+.request_form{
+    padding: 50px 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+.request_form{
+    position: relative;
+}
+
+.request_form::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ab7542df;
+    content: "";
+    opacity: .95;
+}
+
+.request_form h3{
+    margin: 0;
+    background: none;
+    line-height: 1.2em;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form_group{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form_group input{
+    position: relative;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    padding: 9px 20px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,.15)!important;
+    font-weight: 400;
+    border-radius: 2px;
+    height: 40px;
+    transition: all .3s ease;
+    box-shadow: inset 0 0 2px 2px rgb(0 0 0 / 2%);
+}
+
+.form_group textarea{
+    height: 180px;
+    resize: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    padding: 9px 20px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,.15)!important;
+    font-weight: 400;
+    border-radius: 2px;
+    transition: all .3s ease;
+    outline: none;
+}
+
+.form_group button{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #714726!important;
+    border-color: #714726!important;
+    color: #fff!important;
+    transition: all .3s;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 0;
+    background-image: none;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 11px 30px 9px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.form_group input::placeholder{
+    color: #fff;
+}
+
+.form_group textarea::placeholder{
+    color: #fff;
+}
+
+.btn_title{
+    position: relative;
+    z-index: 9;
+    color: inherit;
+}
+
+.btn_style_four span:not(.btn_title){
+    background-color: #ab7442;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    transform: translateY(150%);
+    transition: all .5s ease;
+    z-index: 0;
+}
+
+.theme_btn span:nth-child(2){
+    left: 20%;
+    transition-delay: .1s;
+}
+
+.theme_btn span:nth-child(3){
+    left: 40%;
+    transition-delay: .2s;
+}
+
+.theme_btn span:nth-child(4){
+    left: 60%;
+    transition-delay: .3s;
+}
+.theme_btn span:nth-child(5){
+    left: 80%;
+    transition-delay: .4s;
+}
+.theme_btn:hover span {
+    transform: translateY(0) scale(2)
+}

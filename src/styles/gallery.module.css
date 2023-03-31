@@ -1,0 +1,23 @@
+.gallery_img{
+    height: 300px;
+    width: 100%;
+    margin: 5px;
+}
+
+.gallery_img{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.pic{
+    height: 350px;
+}
+
+/* .pic img{
+    height: 250px;
+} */
+
+.image_modal{
+    height: 300px !important;
+    width: 100% !important;
+}

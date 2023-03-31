@@ -1,0 +1,547 @@
+.page_title{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('https://www.calibreply.com/img/7.854c5821.jpeg');
+}
+
+.page_title::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #000;
+    opacity: .6;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix::before{
+    content: "\0020";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix::after{
+    content: "\0020";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* .top-bg-img{
+    background-image: url(/img/7.854c5821.jpeg);
+} */
+
+.auto_container{
+    position: static;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.page_title h1{
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    z-index: 9;
+    color: #fff;
+    font-family: "PT Serif",serif;
+    margin-bottom: 10px;
+}
+
+.bread_crumb{
+    position: relative;
+    z-index: 1;
+}
+
+.bread_crumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 18px;
+    padding-right: 18px;
+    cursor: pointer;
+}
+
+.bread_crumb li a::after{
+    position: absolute;
+    content: "|";
+    top: 0;
+    right: -4px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.bread_crumb li a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 500;
+    /* margin-right: 18px; */
+    padding-right: 35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bread_crumb li a::after{
+    position: absolute;
+    content: "|";
+    top: 0;
+    right: -4px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about_us{
+    position: relative;
+    padding: 120px 0 70px;
+}
+
+.about_us::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    opacity: .8;
+    transform: scaleX(-1);
+}
+
+.content_column{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.inner_column{
+    position: relative;
+}
+
+.sec_title{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sec_title h2{
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    /* color: #353535; */
+    line-height: 1em;
+    font-weight: 600;
+    color: transparent;
+    cursor: default;
+    -webkit-text-stroke: 1px #353535;
+    transition: all .2s ease-in-out;
+}
+
+.sec_title h2::before{
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    height: 2px;
+    width: 50px;
+    background-color: #ab7442;
+    content: "";
+    margin-left: 15px;
+}
+
+.sec_title h2::after{
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    height: 2px;
+    width: 50px;
+    background-color: #ab7442;
+    content: "";
+    margin-left: 15px;
+}
+
+.about_years{
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
+
+.about_years::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-left: 3px solid #ab7442;
+    content: "";
+}
+
+.years{
+    position: relative;
+    display: inline-block;
+    line-height: 1.2em;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #ab7442;
+    font-family: Montserrat,sans-serif;
+}
+
+.about_years h3{
+    position: relative;
+    display: inline-block;
+    line-height: 1.2em;
+    font-size: 22px;
+    color: #353535;
+}
+
+
+.text_box{
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.text_box p{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #353535;
+    margin: 0;
+}
+
+
+.image_column{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+ .inner_column{
+    position: relative;
+    padding-left: 50px;
+}
+
+.inner_column::before{
+    position: absolute;
+    right: -50px;
+    top: 50px;
+    height: 400px;
+    width: 200px;
+    content: "";
+    box-sizing: border-box;
+}
+
+.video_box{
+    position: relative;
+    z-index: 7;
+}
+
+.image{
+
+    position: relative;
+    z-index: 9;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.image img{
+    display: inline-block;
+    width: auto;
+    border: 10px solid #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.call_to_action{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding: 100px 0 0;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+.alternate{
+    margin-bottom: 220px;
+}
+
+.call_action_bg_img{
+    background-image: url('https://www.calibreply.com/img/13.ece3846f.jpeg');
+}
+
+.call_to_action::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .75;
+    content: "";
+}
+
+.content_box{
+    position: relative;
+    text-align: center;
+}
+
+.content_box h2{
+    position: relative;
+    display: block;
+    font-size: 38px;
+    line-height: 1.4em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.fact_counter{
+    position: relative;
+    transform: translateY(50%);
+}
+
+.clearfix::before{
+    content: "\0020";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.counter{
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.count_box{
+    position: relative;
+    font-size: 42px;
+    line-height: 1em;
+    font-weight: 700;
+    color: #353535;
+}
+
+.count_text{
+    position: relative;
+    font-size: 42px;
+    line-height: 1em;
+    font-weight: 700;
+    color: #353535;
+}
+
+.counter_title{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #353535;
+    padding-top: 10px;
+}
+
+.outer_container{
+    position: relative;
+    min-height: 350px;
+    padding-top: 100px;
+}
+
+.content_col{
+    position: relative;
+    float: right;
+    width: 55%;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+    z-index: 9;
+}
+
+.inner_col{
+    position: relative;
+    max-width: 800px;
+    padding: 70px 15px 60px 70px;
+}
+
+.sec_title2{
+    margin-bottom: 35px;
+}
+
+.sec_title2 h2{
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    color: #353535;
+    line-height: 1em;
+    font-weight: 600;
+    color: transparent;
+    cursor: default;
+    -webkit-text-stroke: 1px #353535;
+    transition: all .2s ease-in-out;
+}
+
+.sec_title2 h2::before{
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    height: 2px;
+    width: 50px;
+    background-color: #ab7442;
+    content: "";
+    margin-left: 15px;
+}
+
+.sec_title2 h2::after{
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    height: 2px;
+    width: 50px;
+    background-color: #ab7442;
+    content: "";
+    margin-left: 15px;
+}
+
+.choose::before{
+    ontent: "\0020";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.chose::after{
+    content: "\0020";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.image_column1{
+    position: absolute;
+    float: left;
+    top: 0;
+    bottom: 100px;
+    left: 0;
+    width: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.why_bg_img{
+    background-image: url('https://www.calibreply.com/img/image-2.0e973d17.jpeg');
+}
+
+.image_box{
+    position: relative;
+    display: none;
+}
+
+.why_bg_img figure{
+    margin: 0 0 1rem;
+}
+
+.sec_title h2{
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    color: #353535;
+    line-height: 1em;
+    font-weight: 600;
+    color: transparent;
+    cursor: default;
+    -webkit-text-stroke: 1px #353535;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.sec_title h2::before{
+    left: auto;
+    right: 100%;
+    margin-right: 15px;
+    margin-left: 0;
+    position: absolute;
+    bottom: 20%;
+    height: 2px;
+    width: 50px;
+    background-color: #ab7442;
+    content: "";
+}
+
+.text{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #353535;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media(max-width:991px){
+    .inner_column::before{
+        /* position: absolute; */
+        right: -50px;
+        top: 50px;
+        height: 400px;
+        width: 200px;
+        content: "";
+        box-sizing: border-box;
+    }
+    .inner_column{
+        position: relative;
+        padding-left: 0px !important;
+    }
+    .sec_title h2::before{
+        /* position: absolute; */
+        /* left: 100%; */
+        /* bottom: 20%;
+        height: 2px;
+        width: 50px;
+        background-color: #ab7442; */
+        content: "";
+        margin-left: 15px;
+    }
+    .inner_column{
+        position: none;
+    }
+}
